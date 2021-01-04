@@ -1,4 +1,71 @@
+@font-face{
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: blanchedalmond;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.social-media{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.contact-square{
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-square:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 500ms;
+}
+
+.nav-links{
+    margin: 20px 0px;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+#navbar h3 {
+    text-align: center;
+}
+
+
+main{
+    height: 100vh;
+    background-color: gold;
+    flex: 8;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#welcome-section{
+    height: 100vh;
 }
