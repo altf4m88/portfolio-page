@@ -25,35 +25,6 @@ nav{
     z-index: 4;
 }
 
-
-.social-media{
-    border-top: 1px solid #4582ec;
-    padding-top: 20px;
-    display: flex;
-    flex: 2;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-.contact-square{
-    color: #4582ec;
-    border: 1px solid #4582ec;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: white;
-    cursor: pointer;
-}
-
-.contact-square:hover{
-    background-color: #4582ec;
-    color: white;
-    transition-duration: 500ms;
-}
-
 .nav-links{
     flex: 1;
     display: flex;
@@ -167,4 +138,85 @@ main{
 .project-tile p{
     text-align: center;
     font-size: small;
+}
+
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.social-media{
+    border-top: 1px solid #4582ec;
+    background-color: #4582ec;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-media-title{
+    color: white;
+}
+
+.contact{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.contact-square{
+    color: #4582ec;
+    font-size: 30px;
+    border: 1px solid #4582ec;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-square:hover{
+    background-color: #4582ec;
+    font-size: 24px;
+    color: white;
+    border: 3px solid white;
+    transition-duration: 500ms;
+}
+
+.fcc-img{
+    width: 250px;
+}
+
+.fcc-profile-link{
+    font-size: x-large;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.fcc-profile-link:hover{
+    color: #4582ec;
+    text-decoration: underline;
+}
+
+.profile-name, .profile-info{
+    margin: 5px 0;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    background: #343a40;
+    color: white;
 }
