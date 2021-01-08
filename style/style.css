@@ -73,6 +73,7 @@ main{
 
 .secondary-headline{
     position: absolute;
+    width: 50%;
     top: 50%;
     left: 40%;
     font-size: 30px;
@@ -181,6 +182,10 @@ main{
     padding: 3px;
 }
 
+.project-text h3{
+    text-align: center;
+}
+
 #profile{
     display: flex;
     flex-direction: column;
@@ -259,4 +264,98 @@ footer{
     text-align: center;
     background: #343a40;
     color: white;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .secondary-headline{
+        width: 80%;
+        top: 50%;
+        left: 40%;
+        font-size: 30px;
+    }
+
+    .headline {
+        top: 35%;
+        left: 40%;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .secondary-headline{
+        width: 80%;
+        top: 50%;
+        left: 40%;
+        font-size: 30px;
+    }
+
+    .headline {
+        top: 36%;
+        left: 40%;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+
+    .fcc-profile-link{
+        font-size: large;
+    }
+
+    .secondary-headline{
+        width: 80%;
+        top: 50%;
+        left: 40%;
+        font-size: 26px;
+    }
+
+    .headline {
+        top: 36%;
+        left: 40%;
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 560px){
+
+    .fcc-profile-link{
+        font-size: medium;
+    }
+
+    .secondary-headline{
+        font-size: 20px;
+    }
+
+    .headline {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .project-tile{
+        width: 300px;
+        height: 350px;
+    }
+
+    .fcc-profile-link{
+        font-size: small;
+    }
+
+    .secondary-headline{
+        top: 60%;
+        font-size: 22px;
+    }
+
+    .headline {
+        font-size: 34px;
+        
+    }
+
 }
