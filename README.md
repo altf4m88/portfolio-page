@@ -1,0 +1,1 @@
+## This page is one of FCC Responsive Web Design project
