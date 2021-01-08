@@ -238,6 +238,13 @@ main{
     transition-duration: 500ms;
 }
 
+.contact-square a{
+    color: #4582ec;
+}
+.contact-square a:hover{
+    color: white;
+}
+
 .fcc-img{
     width: 250px;
 }
