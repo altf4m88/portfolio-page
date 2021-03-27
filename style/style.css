@@ -246,6 +246,8 @@ main{
 }
 
 .fcc-img{
+    margin: 10px;
+    border-radius: 25px;
     width: 250px;
 }
 
